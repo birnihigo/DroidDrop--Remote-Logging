@@ -17,7 +17,7 @@ public class UpdateLog extends Activity {
 	EditText note;
 	Button addNote;
 
-	DroidDropNoteClient dropClient= new DroidDropNoteClient("0e7824af253fab32035a978dc9ccc2f5c2336e9b");
+	DroidDropNoteClient dropClient= new DroidDropNoteClient("--YOUR DROP.IO DEVELOPER API KEY--");
 
 
 	String results=null;

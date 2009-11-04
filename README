@@ -1,0 +1,31 @@
+DroidDrop - Remote Logging
+
+DroidDrop Remote logging give Android Developers the ability to log data from their applications to a drop on drop.io.
+Watch the YouTube demo here: http://www.youtube.com/watch?v=OWwfp1cQ8WA
+
+T
+
+How to:
+Download DroidDropNotes.jar from this repository.
+This is the direct URL:
+http://github.com/CarmenD/DroidDrop--Remote-Logging/raw/master/DroidDropNotes.jar
+
+Include the jar in your Android project. 
+The Jar adds 16K to your project.
+
+Get a developer account from drop.io (free, painless, takes 2 minutes)
+http://dev.drop.io/
+
+Review the sample usage in DropioLogDemo.Java
+Watch the YouTube demo here: http://www.youtube.com/watch?v=OWwfp1cQ8WA
+
+DropioLogDemo.java shows the first screen for the app 
+UpdateLog.java has sample usage to show logging an exception and saving user input.
+
+
+Declare a DroidDropNote Client:
+DroidDropNoteClient dropClient= new DroidDropNoteClient("--YOUR API Key");
+
+Write out a Note/Text contents:
+results = dropClient.createNote( "Note title",  "Message");
+					
