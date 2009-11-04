@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:admobsdk="http://schemas.android.com/apk/res/com.brightkeep.droiddrop"
+    android:orientation="vertical"
+    android:layout_height="fill_parent" android:layout_width="fill_parent" >
+        
+
+<TextView android:id="@+id/companyLabel" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="16px" android:typeface="monospace" android:text="  remote logging for your apps"></TextView>
+
+
+
+<TextView android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffffff" android:text="Create Exception:"></TextView><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Generate Divide by Zero Exception.  Catch it and Log it."></TextView>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/LogException" android:text="Log Exception"></Button><TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffffff" android:text="Enter info for Log:"></TextView>
+
+
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:includeFontPadding="true" android:id="@+id/Note" android:hapticFeedbackEnabled="false"></EditText><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/AddNote" android:text=" Add User Input to Log "></Button>
+    
+
+
+
+
+
+
+
+
+
+</LinearLayout>
