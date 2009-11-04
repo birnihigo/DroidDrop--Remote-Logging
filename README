@@ -3,7 +3,6 @@ DroidDrop - Remote Logging
 DroidDrop Remote logging give Android Developers the ability to log data from their applications to a drop on drop.io.
 Watch the YouTube demo here: http://www.youtube.com/watch?v=OWwfp1cQ8WA
 
-T
 
 How to:
 Download DroidDropNotes.jar from this repository.
@@ -13,7 +12,7 @@ http://github.com/CarmenD/DroidDrop--Remote-Logging/raw/master/DroidDropNotes.ja
 Include the jar in your Android project. 
 The Jar adds 16K to your project.
 
-Get a developer account from drop.io (free, painless, takes 2 minutes)
+Get a developer API Key from drop.io (free, painless, takes 2 minutes)
 http://dev.drop.io/
 
 Review the sample usage in DropioLogDemo.Java
