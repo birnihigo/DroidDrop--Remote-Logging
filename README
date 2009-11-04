@@ -24,7 +24,8 @@ UpdateLog.java has sample usage to show logging an exception and saving user inp
 
 Declare a DroidDropNote Client:
 DroidDropNoteClient dropClient= new DroidDropNoteClient("--YOUR API Key");
+dropClient.setToken("--drop password or token");
 
 Write out a Note/Text contents:
-results = dropClient.createNote( "Note title",  "Message");
+results = dropClient.createNote( "DROPNAME", "Note title",  "Message");
 					
